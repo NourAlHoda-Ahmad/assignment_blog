@@ -1,0 +1,80 @@
+/* unset default style */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Banner style section start */
+
+.banner {
+    /* background-image: url(../assets/banner-img.jpg); */
+    /* opacity: 0.7; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../assets/banner-img.jpg);
+
+    /* cover value : image covers the entire page/section &  maintains the aspect ratio of the image ; 
+    won't get repeated image */
+    background-size: cover;
+
+    /* background-position: center; */
+
+    /* 100VW would represent 100% of the viewport's width, or the full width of the screen. */
+    width: 100vw;
+    /* 100VH would represent 100% of the viewport's height, or the full height of the screen. */
+    /* height: 100vh; */
+
+    height: 35vh;
+
+    /* used in parrarel with child elements , so margin , padding change doesn't affect it */
+    /* Absolute positioning defines the position
+     of a given bounding box from the top and left side margins of the web page. 
+     This not only allows objects to be placed in an exact location, 
+     it also allows objects to be placed one on top of another. */
+    /* position: absolute;  */
+
+    /* Relative positioning defines the positioning in such a way that elements are offset 
+    from the previous element in the HTML code. 
+    This allows objects to be placed in relation to one another. */
+    position: relative;
+
+}
+
+
+.banner div{
+    margin-top: 50px;
+    /* display: inline-block;  */
+    /* margin-left: 60px; */
+}
+
+/* common styles in banner elements */
+.banner .banner-elements{
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+.banner h1,h5{
+    color: rgb(255, 255, 255);
+
+}
+
+.banner h1{
+    font-size: 48px;
+}
+
+
+.banner h5 {   
+    font-size: 16px;
+}
+.banner h5 span{   
+    color: rgb(155, 218, 218);
+    font-weight: bold;
+}
+
+
+
+/* Banner style section end */
+
+
