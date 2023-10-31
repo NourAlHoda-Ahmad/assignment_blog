@@ -125,7 +125,8 @@ section div p{
 /* Top cities styling Section start */
 
 .title{
-    padding: 15x;
+    padding-top: 40px;
+    /* padding: 15px; */
     color: #74aebe;
     font-weight: bold;
     /* text-align: center; */
@@ -141,7 +142,7 @@ li{
 
 .top-cities p, img{
 
-    margin: 15px 40px;
+    margin: 10px 40px;
 
 }
 
@@ -157,7 +158,6 @@ li{
 .top-cities span{
     color: #74aebe;
     font-size: bold;
-    margin-bottom: 40px;
 }
 
 /* Top cities styling Section end */
