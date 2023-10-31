@@ -9,21 +9,26 @@
     /* overflow: scroll; */
 }
 
-/* Header style section start */
-.header {
+
+/* common for header and footer  */
+
+.header , .footer {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../assets/banner-img.jpg);
     
     /* cover value : image covers the entire page/section &  maintains the aspect ratio of the image ; 
     won't get repeated image */
     background-size: cover;
-    
     color: white;
-    font-size: 30px;
-    padding: 50px;
     text-align: center;
   }
 
+
+/* Header style section start */
+.header{
+    font-size: 30px;
+    padding: 50px;
+  }
 
 
 /* common styles in banner elements */
@@ -161,6 +166,23 @@ li{
 }
 
 /* Top cities styling Section end */
+
+/* footer style start */
+.footer{
+    font-size: 18px;
+    padding: 15px;
+    
+
+}
+
+.footer span{
+    padding: 5px;
+    color: #74aebe;
+    font-size: bold;
+}
+
+/* footer style end */
+
 
 
 
