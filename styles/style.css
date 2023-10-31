@@ -4,15 +4,17 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    color: rgb(255, 255, 255);
 
     /* overflow: scroll; */
 }
 
-/* Banner style header start */
+/* Header style section start */
 .header {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../assets/banner-img.jpg);
-      /* cover value : image covers the entire page/section &  maintains the aspect ratio of the image ; 
+    
+    /* cover value : image covers the entire page/section &  maintains the aspect ratio of the image ; 
     won't get repeated image */
     background-size: cover;
     
@@ -24,40 +26,41 @@
 
 
 
-.header div{
-    margin-top: 50px;
-    display: inline-block; 
-    /* margin-left: 60px; */
-}
-
 /* common styles in banner elements */
 .header .header-elements{
     padding-top: 15px;
-    /* padding-left: 60px; */
+    padding-bottom: 15px;
 }
 
-.header h1,h5{
+/* put white text color as a common for all */
+/* .header h1,h5{
     color: rgb(255, 255, 255);
 
-}
+} */
 
 .header h1{
     font-size: 48px;
     text-align: justify;
+    
 }
 
 
 .header h5 {   
     font-size: 18px;
 }
+
 .header h5 span{   
-    color: rgb(204, 218, 218);
-    font-weight: bold;
-    font-size: 20px;
+    color: rgb(121, 128, 127);
+    font-weight:bold;
+    /* font-size: 20px; */
 
 }
 
-/* Common in SECTION */
+/* Header style section end */
+
+
+
+/* Common in SECTION start*/
 
 section{
     background-color:#071417;
@@ -66,9 +69,9 @@ section{
     padding-right: 60px;
     padding-bottom: 60px;
 
-
-
 }
+
+
 section h1{
     padding: 25px;
     text-align: center;
@@ -81,7 +84,18 @@ section h1{
 }
 
 
-/* Banner style header end */
+section div p{
+   
+    /* text-align: center; */
+   color: white;
+   font-size: 18px;
+   /* padding-bottom: 15px;
+   padding-top: 15px; */
+   padding: 15px 0;
+
+}
+
+/* Common in SECTION end*/
 
 
 /* Preface style section start */
@@ -93,32 +107,27 @@ section h1{
   } */
 
 
+
   .preface div{
-    padding: 20px;
     text-align: center;
-   color: white;
-   font-size: 18px;
-
-   
-
   }
 
  
 
-
   .preface .item img{
     width: 300px;
     height: 300px;
+    padding: 15px 0
   }
 
 /* Preface style section end */
 
 
+
 /* Top cities styling Section start */
-
-
 .title{
-    padding: 20px;
+    padding: 15x;
+    color: red;
     /* text-align: center; */
 }
 
@@ -145,14 +154,8 @@ li{
 
 }
 
-.top-cities p{
-   
-    /* text-align: center; */
-   color: white;
-   font-size: 18px;
-   padding-bottom: 30px;
 
-}
+
 /* Top cities styling Section end */
 
 
